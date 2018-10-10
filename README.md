@@ -27,8 +27,11 @@ Setup the build environment as described [here](https://github.com/stetre/moonli
 ```sh
 $ git clone https://github.com/stetre/moongl
 $ cd moongl
+1. Makefile
 moongl$ make
 moongl$ make install # or 'sudo make install' (Ubuntu)
+2. Rockspec
+moongl$ luarocks make
 ```
 
 #### Example
